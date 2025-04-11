@@ -1,0 +1,108 @@
+/*================
+      Geral
+==================*/
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243D;
+}
+a{
+    color: #21243D;
+    text-decoration: none;
+}
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+p{
+    line-height: 130%;
+}
+
+img {
+    max-width: 100%;
+}
+section h2{
+    text-align: center;
+    margin: 15px;
+}
+
+/*================
+    especifico
+==================*/
+
+header ul li{
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+section.banner{
+    text-align: center;
+    padding: 0 5% 0  5%;
+}
+section.banner h1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+section.banner div button{
+    background-color: #FF6464;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+section.post{
+    background-color: #EDF7FA;
+    padding: 10px;
+}
+
+
+section.post ul li{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin: 12px 10px 12px 10px;
+}
+section.post ul li h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+section.works {
+    padding: 20px 10px 20px 10px;
+}
+section.works ul li {
+    margin: 15px 0;
+}
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+section.works ul li p {
+    margin: 15px 0 0 0;
+    color: #21243D;    line-height: 130%;
+}
+section.works ul li p.info {
+    color: #21243D;
+}
+section.works ul li p.info span {
+    color: white;
+    background-color: #21243D;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+section.works ul{
+    border-bottom: 1px solid black
+}
+footer{
+    text-align: center;
+}
+
+footer a {
+    font-size: 2rem;
+    margin: 10px 15px;
+
+}
